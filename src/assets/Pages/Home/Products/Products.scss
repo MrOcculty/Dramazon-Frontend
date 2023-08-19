@@ -1,0 +1,15 @@
+.products{
+    padding:5vw;
+
+    .head{
+        text-align:center;
+        font-size: 30px;
+    }
+    .list{
+        padding-top:30px;
+        justify-content:space-evenly;
+        gap:30px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

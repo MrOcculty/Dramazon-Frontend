@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Geologica;
+    src: url(./src/assets/Graphics/Fonts/Geologica.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Geologica;
+    &::-webkit-scrollbar{
+        display:none;
+    }
+}

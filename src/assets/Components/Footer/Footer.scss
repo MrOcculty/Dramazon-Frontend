@@ -1,0 +1,21 @@
+.footer{
+    padding:5vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    gap:2vw;
+    text-align:left;
+
+    .foots{
+        width:20vw;
+        min-width: 160px;
+        .head{
+            font-size:large;
+        }
+        .content{
+            font-size: small;
+            opacity:0.7;
+        }
+    }
+}

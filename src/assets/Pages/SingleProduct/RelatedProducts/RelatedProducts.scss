@@ -1,0 +1,17 @@
+
+.related{
+    padding:5vw;
+    
+    .heading{
+        text-align:center;
+        font-size:30px;
+    }
+
+    .prods{
+        margin-top:30px;
+        display:flex;
+        justify-content:space-evenly;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+}

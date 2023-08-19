@@ -1,0 +1,68 @@
+.newsletter{
+    background-image: url("../../Graphics/Images/NewsletterImage.png");
+    background-position: center;
+    background-repeat:repeat-x;
+    background-size:auto 100%;
+    padding: 40px;
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    p{
+        text-align: center;
+    } 
+
+    @media (max-width: 720px){
+        height:60vw;
+    }
+    @media (max-width: 350px){
+        height:100vw;
+    }
+
+}
+.fl{
+    font-size: 14px;
+    opacity: 0.6;
+}
+.sl{
+    font-size: 30px;
+}
+.tl{
+    .insert{
+        border:1px;
+        padding:8px 10px;
+        font-size: 16px;
+    }
+    input {
+        border:1px solid black;
+        outline:none;
+    }
+    button{
+        cursor:pointer;
+        background-color: rgb(92, 92, 249);
+        margin-top:5px;
+
+        &:active{
+            transform:translate(1px,-1px);
+            box-shadow: -1px 1px;
+        }
+    }
+}
+
+.fol{
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.fil{
+    .icos{
+        cursor:pointer;
+        width:10px;
+        color:black;
+        margin: 10px;
+    }
+}

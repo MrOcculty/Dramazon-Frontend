@@ -1,0 +1,54 @@
+.profile{
+    padding:20px;
+    background-color:rgb(223, 221, 250);
+    border:1px solid rgb(175, 152, 255);
+    width:300px;
+    position:fixed;
+    top:50px;
+    right:50px;
+    height:60vh;
+    border-radius:10px;
+    z-index: 2;
+
+    .propic{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+        img{
+            width:50px;
+            height:50px;
+            border:2px solid rgb(175, 152, 255);
+            border-radius:50%;
+            overflow:hidden;
+        }
+        .email{
+            font-size:12px;
+            opacity:0.8;
+        }
+        .ellipsis{
+            text-align:center;
+            width:80%;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+        }
+    }
+    hr{
+        width:100%;
+    }
+
+    .options{
+        p{
+            cursor:pointer;
+        }
+    }
+
+    @media (max-width: 500px){
+        top:0;
+        right:0;
+        width:70vw;
+        height: 100vh;
+        border-radius:0;
+    }
+}

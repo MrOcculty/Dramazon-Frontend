@@ -1,0 +1,48 @@
+.cp{
+    width:100%;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid rgb(209, 206, 206);
+
+    img{
+        width:40%;
+        background-color:rgb(222, 222, 222);
+    }
+    .info{
+        display:flex;
+        flex-direction:column;
+        gap:5px;
+        width:60%;
+        padding:10px;
+
+        .name{
+            font-weight:bold;
+        }
+        .quant{
+            width:fit-content;
+            height:fit-content;
+            border:1px solid rgb(142, 142, 142);
+
+            button{
+                background-color:rgb(187, 187, 251);
+                border:none;
+                width:20px;
+                height:100%;
+                font-size:16px;
+            }
+
+            span{
+                padding:5px;
+            }
+
+        }
+        .icon{
+            transform: translate(20px,6px);
+            font-size:24px;
+
+            &:active{
+                transform:translate(21px,7px);
+            }
+        }
+    }
+}

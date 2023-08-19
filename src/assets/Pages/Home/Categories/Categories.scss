@@ -1,0 +1,38 @@
+.homeCat{
+    font-size:30px;
+    text-align:center;
+}
+.categories{
+    padding: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+
+    .cat{
+        cursor:pointer;
+        position:relative;
+        width:18vw;
+        margin-top:30px;
+
+        overflow:hidden;
+
+        @media (max-width: 1200px){
+            width:40vh;
+        }
+
+        @media (max-width: 910px){
+            width:90vh;
+        }
+
+        img{
+            width:100%;
+            transition: transform 0.3s ease;
+        }
+        img:hover{
+            transform:scale(1.1);
+        }
+        span{
+            transform:translateY(-50px);
+        }
+    }
+}
